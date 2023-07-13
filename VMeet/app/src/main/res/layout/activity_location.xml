@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.Location">
+
+    <Button
+        android:id="@+id/GetCurrentLocation"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:onClick="getLocation"
+        android:text="@string/get_current_location" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ee1_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:fontFamily="@font/poppinsmedium"
+            android:hint="@string/home_address"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            tools:ignore="LabelFor,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ee2_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:fontFamily="@font/poppinsmedium"
+            android:hint="@string/city"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            tools:ignore="LabelFor,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ee3_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:hint="@string/state"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            tools:ignore="LabelFor,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ee4_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:hint="@string/country"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            tools:ignore="LabelFor,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ee5_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:hint="@string/pin_code"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            tools:ignore="LabelFor,RtlSymmetry" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b2_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="updateLocation"
+        android:text="@string/update_location" />
+
+
+</LinearLayout>

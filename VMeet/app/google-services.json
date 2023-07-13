@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "901602953658",
+    "project_id": "vmeet-49829",
+    "storage_bucket": "vmeet-49829.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901602953658:android:49b785dec3c8b3309e7583",
+        "android_client_info": {
+          "package_name": "com.example.vmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901602953658-32b8p9lmp6v618r70b66k6hehcdf5qm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vmeet",
+            "certificate_hash": "e5e006d6740a348be356753f3a73f466b344ff13"
+          }
+        },
+        {
+          "client_id": "901602953658-d1ijne6f21uqfjm3i45l4m8ldfts7r1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO1L8G5BaEwtNcBPo6Tj6v1kYI2jtKNys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901602953658-d1ijne6f21uqfjm3i45l4m8ldfts7r1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

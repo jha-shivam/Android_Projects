@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Activities.Otpac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/otpBack"
+            android:onClick="goToHomeFromOTP"
+            android:padding="4dp"
+            android:src="@drawable/gotohome"
+            app:tint="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/r1_otpac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/t1_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/Vidmeet"
+                android:textSize="40sp"
+                android:textColor="@color/gray"
+                app:fontFamily="@font/poppinsmedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r1_otpac"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/l1_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/country_code_picker_otpAc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="30dp"
+                    android:gravity="center"
+                    app:ccp_countryPreference="US,IN,NZ"
+                    app:ccp_defaultCode="91"
+                    app:ccp_defaultNameCode="IN" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/e1_otpAc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:counterMaxLength="15"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/ee1_otpAc"
+                        android:background="@drawable/but1"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:hint="@string/enter_your_number"
+                        android:inputType="number"
+
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/button_otpac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/but2"
+                    android:onClick="LoginOtp"
+                    android:text="@string/otpac"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

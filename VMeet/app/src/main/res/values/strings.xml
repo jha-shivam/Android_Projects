@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">VMeet</string>
+    <!-- MainActivity1 -->
+    <string name="welcome">Welcome</string>
+    <string name="Vidmeet">Vidmeet</string>
+    <!-- MainActivity2 -->
+    <string name="login">LogIn</string>
+    <string name="signup">SignUp</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="enter_username_or_email">Enter username or email</string>
+    <string name="enter_password">Enter password</string>
+    <!-- MainActivity3 -->
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="don_t_have_an_accout">Don\'t have an accout?</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="verify">Verify</string>
+    <string name="enter_your_otp">Enter your otp</string>
+    <string name="myapp">MyApp</string>
+    <string name="main3">main3</string>
+    <string-array name="numbers">
+        <item>Doctor</item>
+        <item>Patient</item>
+    </string-array>
+    <string-array name="esehi">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navi">Close</string>
+    <string name="appointments_mainmenu">Appointments</string>
+    <string name="my_doctors_mainMenu">My Doctors</string>
+    <string name="history_mainmenu">Records</string>
+    <string name="remainders_mainMenu">Remainders</string>
+    <string name="profile_mainmenu">Profile</string>
+    <string name="edit_profile_mainmenu">My Profile</string>
+    <string name="educational_profile_mainmenu">Work Profile</string>
+    <string name="logout_mainmenu">LogOut</string>
+    <string name="communicate_mainmenu">Communicate</string>
+    <string name="payments_mainmenu">Payments</string>
+    <string name="settings">Settings</string>
+    <string name="consultations_mainMenu">Consultations</string>
+    <string name="get_a_way_main3">Get A Way</string>
+    <string name="search_main3">Search</string>
+    <string name="forsearch_main3">ForSearch</string>
+    <string name="displayprofile">DisplayProfile</string>
+
+    <string name="contact">Contact</string>
+    <string name="contact_number">Contact number</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="yyyy_mm_dd">yyyy mm dd</string>
+    <string name="location">Location</string>
+    <string name="your_location">Your Location</string>
+    <string name="username">Username</string>
+    <string name="edit_educational_profile">Edit Work Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="get_location">get Location</string>
+    <string name="edit_work_profile">Edit Work Profile</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="home_bottom_nav_menu">Home</string>
+    <string name="payments_bottom_nav_menu">Payments</string>
+    <string name="main3disp">main3disp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="payment_history">Payment history</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="phone_number">Phone number</string>
+    <string name="work">Work</string>
+    <string name="edit_photo">change Photo</string>
+    <string name="usertype">Usertype</string>
+    <string name="home_address">Home address</string>
+    <string name="clinic_address">Clinic address</string>
+    <string name="forgotpassword">ForgotPassWord..?</string>
+    <string name="edit_my_profile">Edit my profile</string>
+    <string name="esehi">TODO</string>
+    <string name="update">Update</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="birth_date">Birth-date</string>
+    <string name="next">Next</string>
+    <string name="otpBack">otpBack</string>
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password</string>
+    <string name="header_file">Hello user</string>
+    <string name="otpac">Next</string>
+    <string name="loading_data">Loading data....</string>
+    <string name="get_current_location">Get Current Location</string>
+    <string name="langitude">Langitude</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pin_code">Pin-Code</string>
+    <string name="update_location">Update location</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+</resources>

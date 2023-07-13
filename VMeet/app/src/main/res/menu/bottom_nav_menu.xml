@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_bottom_nav_menu"
+        tools:targetApi="o">
+
+    </item>
+    <item
+        android:id="@+id/Consultations"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="@string/consultations_mainMenu"
+        tools:targetApi="o">
+
+    </item>
+    <item
+        android:id="@+id/payment_bottom_nav_menu"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="@string/payments_bottom_nav_menu"
+        tools:targetApi="o">
+
+    </item>
+</menu>

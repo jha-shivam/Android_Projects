@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Activities.Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <RelativeLayout
+            android:id="@+id/r1_profile"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/trans"
+            tools:ignore="UselessParent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/i1_editpersonalprofile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp"
+                app:riv_border_color="#333333"
+                app:riv_border_width="1dip"
+                app:riv_corner_radius="20dip"
+                app:riv_mutate_background="true"
+                app:riv_oval="true"
+                app:riv_tile_mode="repeat" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r2_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r1_profile"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/l1_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/trans"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="@string/name"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/t2_personalprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/but4"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center_vertical"
+                        android:paddingStart="20sp"
+                        android:paddingLeft="20sp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/trans"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="@string/email"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/t3_personalprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/but4"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center_vertical"
+                        android:paddingStart="20sp"
+                        android:paddingLeft="20sp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/trans"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="@string/username"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/t4_personalprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/but4"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center_vertical"
+                        android:paddingStart="20sp"
+                        android:paddingLeft="20sp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/trans"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="@string/phone_number"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/t5_personalprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/but4"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center_vertical"
+                        android:inputType="phone"
+                        android:paddingStart="20sp"
+                        android:paddingLeft="20sp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry,TextViewEdits" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/b2_personalprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/but2"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="@string/edit_my_profile"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

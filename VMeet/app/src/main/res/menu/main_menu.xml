@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/profile_mainmenu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_personal_profile"
+
+                    android:title="@string/edit_profile_mainmenu" />
+                <item
+                    android:id="@+id/nav_work_profile"
+
+                    android:title="@string/educational_profile_mainmenu" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/work">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Appointment"
+
+                    android:title="@string/appointments_mainmenu" />
+                <item
+                    android:id="@+id/nav_History"
+                    android:title="@string/history_mainmenu" />
+                <item
+                    android:id="@+id/nav_Remainders"
+                    android:title="@string/remainders_mainMenu" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_logout"
+
+                android:title="@string/logout_mainmenu">
+
+            </item>
+        </menu>
+    </item>
+</menu>

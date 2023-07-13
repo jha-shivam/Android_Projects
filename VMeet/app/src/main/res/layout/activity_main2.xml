@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity2">
+    <TextView
+        android:id="@+id/t1_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Vidmeet"
+        android:textSize="40sp"
+        app:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <Button
+        android:id="@+id/b1_main2"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:background="@drawable/but1"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/t1_login"
+        app:layout_constraintStart_toStartOf="@+id/t1_login"
+        app:layout_constraintTop_toBottomOf="@+id/t1_login"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/b2_main2"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:background="@drawable/but2"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/signup"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/t1_login"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/t1_login"
+        app:layout_constraintTop_toBottomOf="@+id/b1_main2"
+        app:layout_constraintVertical_bias="0.193"
+        tools:targetApi="jelly_bean" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
